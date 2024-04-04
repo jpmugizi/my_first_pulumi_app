@@ -1,0 +1,10 @@
+config:
+  my_first_pulumi_app:backendPort: "3000"
+  my_first_pulumi_app:database: cart
+  my_first_pulumi_app:frontendPort: "3002"
+  my_first_pulumi_app:mongoHost: mongodb://mongo:27017
+  my_first_pulumi_app:mongoPassword:
+    secure: AAABAIEv09X55j6TkC/or8DgiSZ2P0vk5Z5rImYii3MLn/cIOyE=
+  my_first_pulumi_app:mongoPort: "27017"
+  my_first_pulumi_app:nodeEnvironment: development
+  my_first_pulumi_app:protocol: http://
